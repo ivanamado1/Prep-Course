@@ -10,6 +10,11 @@ function deObjetoAmatriz(objeto){
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
   //Escribe tu código aquí
+
+let arr = object.keys (objeto).map(function(key){
+  return [number(key), obj(key)]
+})
+
 }
 
 
